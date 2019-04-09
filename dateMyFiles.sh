@@ -13,8 +13,6 @@ filename=${basename%.*}
 
 extension=${basename##*.}
 
-#rename the file using mv function
+#rename the file using cp function
 
 cp $1 ~/Documents/Bash/Test/"$filename"_$date.$extension
-
-
